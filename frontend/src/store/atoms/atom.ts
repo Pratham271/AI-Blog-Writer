@@ -6,7 +6,7 @@ export const blogAtomFamily = atomFamily({
     key: "blogAtomFamily",
     default: selectorFamily({
         key: "blogSelectorFamily",
-        get: ({id}:{id:string}) => async({get})=> {
+        get: ({id}:{id:string}) => async({})=> {
             
             const res = await axios.get(`${BASE_URL}/blog/${id}`, {
                 headers: {
