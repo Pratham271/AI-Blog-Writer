@@ -5,7 +5,6 @@ import Button from './Button';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Spinner from './Spinner';
-// import EmailOtp from './EmailOtp';
 import BASE_URL from '../config';
 
 
@@ -40,24 +39,6 @@ const SignupInputs = () => {
         }
     }
 
-//    async function sendOtp(){
-//        try {
-//         const response = await axios.post(`${BASE_URL}/user/otp`,{
-//             email: postInputs.email,
-//         },
-//         {
-//             headers: {
-//                 secret: process.env.REACT_APP_SECRET
-//             }
-//         }
-//         )
-//         if(response.status!==200){
-//             alert("Error while signing up")
-//         }
-//        } catch (error) {
-//             console.log(error)
-//        }
-//    }
   return (
     <div>
         <div>

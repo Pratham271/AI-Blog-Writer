@@ -1,11 +1,9 @@
 import { Context } from "hono";
-import { CheerioWebBaseLoader } from "langchain/document_loaders/web/cheerio";
 import { StatusCodes } from "./userController";
 import { PrismaClient } from "@prisma/client/edge";
 import { withAccelerate } from "@prisma/extension-accelerate";
 import { UpdateBlogInput, createBlogSchema, updateBlogSchema, CreateBlogInput } from "@prathamchauhan/write.it";
 
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { ImageLink, titleGenerator } from "../helpers/FetchLinks";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
