@@ -1,2 +1,2 @@
-const BASE_URL = "http://localhost:8787/api/v1"
+const BASE_URL = " https://backend.chauhanpratham22.workers.dev/api/v1"
 export default BASE_URL

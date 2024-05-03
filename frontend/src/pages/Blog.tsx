@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import BASE_URL from "../config";
 import Appbar from "../components/Appbar";
-import Skeleton from "../components/Skeleton";
+// import Skeleton from "../components/Skeleton";
 import BlogSpinner from "../components/BlogSpinner";
 
 interface Blog{
