@@ -45,7 +45,7 @@ This guide will walk you through setting up Write.it locally on your machine. Fo
     npm run dev
     ```
 ### 7. Access the Application
-  Once both the frontend and backend servers are running, you should be able to access the application at http://localhost:3000 in your web browser.
+  Once both the frontend and backend servers are running, you should be able to access the application at http://localhost:5173 in your web browser.
 
 ## Additional Notes
   - Make sure all dependencies are installed and environment variables are correctly set before running the application.
